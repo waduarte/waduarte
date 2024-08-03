@@ -38,9 +38,9 @@
 
  ### Critérios de Aceitação:
  
-1. Criar campo: (Nome do Curso) O campo deve permitir a entrada de até 20 caracteres.
-2. Criar campo: (Descrição do Curso) O campo deve permitir a entrada de até 100 caracteres.
-3. Criar campo: (Instrutor): O campo deve permitir a entrada de até 20 caracteres.
+1. Criar campo: (Nome do Curso) O campo deve permitir a entrada de todo tipo de caracteres.
+2. Criar campo: (Descrição do Curso) O campo deve permitir a entrada de todo tipo de caracteres.
+3. Criar campo: (Instrutor): O campo deve permitir a entrada de todo tipo de caracteres.
 4. Criar campo: (URL da Imagem do Curso): O campo deve aceitar um URL válido.
 5. Criar dois campos um do lado do outro com: (Data de Início) e (Data de fim) Os campos devem aceitar datas no formato brasileiro (DD/MM/AAAA).  Deve haver a possibilidade de mostrar a data por um selector de datas, e este deve ter um Tooltip escrito: `mostrar seletor de datas´.
 6. Criar campo: (Número de vagas) O campo deve permitir apenas a entrada de um número inteiro positivo.
