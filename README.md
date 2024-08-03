@@ -7,7 +7,7 @@
 ### História de usuário
 > Como usuário da plataforma do módulo de curso Beedoo.
 > 
-> Quero visualizar a lista de cursos
+> Quero visualizar a lista de cursos.
 > 
 > Para verificar quais cursos estão disponíveis.
 
