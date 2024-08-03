@@ -12,8 +12,9 @@
 > Para verificar quais cursos estão disponíveis.
 
  ### Critérios de Aceitação:
-1. A página inicial (home) deve apresentar toda lista de cursos cadastrados na plataforma.
-2. A lista apresentada de cursos cadastrados na plataforma deve trazer todos os itens do modal de cadastro de cursos, são eles:
+1. listar cursos pode ser vizualizado tanto pelo administrador como pelo usuário final.
+2. A página inicial (home) deve apresentar toda lista de cursos cadastrados na plataforma.
+3. A lista apresentada de cursos cadastrados na plataforma deve trazer todos os itens do modal de cadastro de cursos, são eles:
   - Nome do curso 
   - Descrição do curso 
   - Instrutor
@@ -38,18 +39,19 @@
 
  ### Critérios de Aceitação:
  
-1. Criar campo: (Nome do Curso) O campo deve permitir a entrada de até 20 caracteres.
-2. Criar campo: (Descrição do Curso) O campo deve permitir a entrada de até 100 caracteres.
-3. Criar campo: (Instrutor): O campo deve permitir a entrada de até 20 caracteres.
-4. Criar campo: (URL da Imagem do Curso): O campo deve aceitar um URL válido.
-5. Criar dois campos um do lado do outro com: (Data de Início) e (Data de fim) Os campos devem aceitar datas no formato brasileiro (DD/MM/AAAA).  Deve haver a possibilidade de mostrar a data por um selector de datas, e este deve ter um Tooltip escrito: `mostrar seletor de datas´.
-6. Criar campo: (Número de vagas) O campo deve permitir apenas a entrada de um número inteiro positivo.
-7. Criar campo (Tipo de curso) Deve ser um campo de "combo de seleção" com opções predefinidas (ex: Presencial, Online).
-8. Deve ser implementado um botão com a seguinte escrita: (CADASTRAR CURSO), esse botão deve ser clicável e ao clicar deve ser possível salvar os dados.
-9. Validação dos Campos: Todos os campos são obrigatórios e devem ser validados antes de salvar o curso.
-10. Mensagens de Erro: Deve exibir mensagens de erro apropriadas se os dados inseridos não atenderem aos critérios.
-11. Persistência dos Dados: Deve manter os padrões da plataforma.
-12. Todos os campos devem conter o placeholder correspondente ao campo criado. E no momento em que o usuário clicar no campo o placeholder deve se deslocar para a parte superior dentro do campo e ficar em azul com a letra de fonte menor.
+1. Botão cadastrar curso deve ser visível apenas para administrador.
+2. Criar campo: (Nome do Curso) O campo deve permitir a entrada de até 20 caracteres.
+3. Criar campo: (Descrição do Curso) O campo deve permitir a entrada de até 100 caracteres.
+4. Criar campo: (Instrutor): O campo deve permitir a entrada de até 20 caracteres.
+5. Criar campo: (URL da Imagem do Curso): O campo deve aceitar um URL válido.
+6. Criar dois campos um do lado do outro com: (Data de Início) e (Data de fim) Os campos devem aceitar datas no formato brasileiro (DD/MM/AAAA).  Deve haver a possibilidade de mostrar a data por um selector de datas, e este deve ter um Tooltip escrito: `mostrar seletor de datas´.
+7. Criar campo: (Número de vagas) O campo deve permitir apenas a entrada de um número inteiro positivo.
+8. Criar campo (Tipo de curso) Deve ser um campo de "combo de seleção" com opções predefinidas (ex: Presencial, Online).
+9. Deve ser implementado um botão com a seguinte escrita: (CADASTRAR CURSO), esse botão deve ser clicável e ao clicar deve ser possível salvar os dados.
+10. Validação dos Campos: Todos os campos são obrigatórios e devem ser validados antes de salvar o curso.
+11. Mensagens de Erro: Deve exibir mensagens de erro apropriadas se os dados inseridos não atenderem aos critérios.
+12. Persistência dos Dados: Deve manter os padrões da plataforma.
+13. Todos os campos devem conter o placeholder correspondente ao campo criado. E no momento em que o usuário clicar no campo o placeholder deve se deslocar para a parte superior dentro do campo e ficar em azul com a letra de fonte menor.
 
 ### Decisões para Criar User Stories:
 
